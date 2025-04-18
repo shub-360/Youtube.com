@@ -1,0 +1,24 @@
+.ads-section{
+    
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    margin: 0px 0px 10px 0px;
+    column-gap: 40px;
+}
+.ads {
+    height: 250px;
+    width: 420px;
+    display: block;
+    border: none;
+    border-radius: 10px; /* Ensure the image is displayed */
+}
+.ads-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}

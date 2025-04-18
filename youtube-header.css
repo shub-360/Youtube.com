@@ -1,0 +1,139 @@
+.header{
+    background-color: rgb(15, 15, 15);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px 0px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+/* Left section */
+.header-left-section{
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 16px;
+
+}
+.hamburger-menu{
+    height: 22px;
+    cursor: pointer;
+
+}
+.youtube-logo{
+    height: 60px;
+    cursor: pointer;
+}
+/* Middle Section */
+.header-middle-section{
+    display: flex ;
+    align-items: center;
+    flex : 1;
+    max-width: 750px;
+}
+.search-bar{
+    background-color: rgb(18, 18, 18);
+    height:40px;
+    flex: 1;
+    border: 1.5px solid rgba(34, 34, 34, 1);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+.search-bar::placeholder{
+   color: rgb(125, 125, 125);
+   font-weight: 300;
+    font-size: 1.05rem;
+    padding-left: 20px;
+}
+.search-button{
+    width: 64px;
+    height: 43.5px;
+    background-color: #222222;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search-icon{
+    width: 25px;
+    
+}
+.microphone-button{
+    width: 40px;
+    height: 40px;
+    background-color:#222222;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.microphone-icon{
+    width: 28px;
+    height: 28px;
+}
+/* Right section */
+.header-right-section{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+/* Creating Create Button */
+.create-button{
+    background-color: #222222;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.plus{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.notification-icon{
+    height: 25px;
+
+    width: 25px;
+    cursor: pointer;
+}
+.notification-icon-container{
+    position: relative;
+}
+.notification-count{
+    background-color: rgb(202, 8, 8);
+    position: absolute;
+    font-size: 0.8rem;
+    padding: 2px 2px 2px 2px;
+    height: 15px;
+    width: 15px;
+    top: -8px;
+    right: -4px;
+    border: none;
+    border-radius: 50%;
+}
+.profile-icon{
+    height: 38px;
+    width: 38px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
