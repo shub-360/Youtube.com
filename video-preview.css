@@ -1,7 +1,7 @@
 /* Video Grid */
 .video-grid{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(auto-fit, 1fr)); /* Responsive columns */
     /* grid-auto-rows: auto; */
     gap: 15px 40px; /* Combines column-gap and row-gap */
     padding: 20px; /* Add padding to prevent content from touching edges */
