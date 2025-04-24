@@ -10,19 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
-@media (max-width: 1200px) {
-    .sidebar {
-        width: 100px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        /* Adjust height for mobile view */
-    }
+
 }
 /* THis is for slideBar  */
 .sidebar::-webkit-scrollbar {
